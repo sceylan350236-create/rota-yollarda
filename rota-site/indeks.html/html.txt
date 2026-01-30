@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Rota Yollarda</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+  Rota Yollarda
+</header>
+
+<nav class="menu">
+  <a href="#">Ana Sayfa</a>
+  <a href="#hakkimda">Hakkımda</a>
+  <a href="#rotalar">Rotalar</a>
+  <a href="#kamp">Kamp</a>
+  <a href="#iletisim">İletişim</a>
+</nav>
+
+<section class="hero">
+  <h1>Yol Başlar</h1>
+  <p>Motosiklet • Kamp • Keşif</p>
+</section>
+
+<section id="rotalar" class="icerik">
+  <h2>Öne Çıkan Rotalar</h2>
+
+  <div class="grid">
+
+    <div class="kart">
+      Dağ Rotası
+    </div>
+
+    <div class="kart">
+      Sahil Rotası
+    </div>
+
+    <div class="kart">
+      Orman Kampı
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  © Rota Yollarda
+</footer>
+
+</body>
+</html>

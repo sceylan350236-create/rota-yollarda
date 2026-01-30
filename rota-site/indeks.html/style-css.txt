@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f0f0f;
+  color: white;
+}
+
+/* HEADER */
+
+.header {
+  background: black;
+  padding: 30px;
+  text-align: center;
+  font-size: 28px;
+  color: orange;
+}
+
+/* MENU */
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background: #1a1a1a;
+  padding: 15px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+/* HERO */
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(#000, #111);
+}
+
+.hero h1 {
+  font-size: 42px;
+  color: orange;
+}
+
+/* CONTENT */
+
+.icerik {
+  padding: 40px;
+}
+
+/* GRID */
+
+.grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.kart {
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 12px;
+  flex: 1;
+  min-width: 220px;
+}
+
+/* FOOTER */
+
+.footer {
+  text-align: center;
+  padding: 30px;
+  color: #888;
+  background: black;
+  margin-top: 40px;
+}
