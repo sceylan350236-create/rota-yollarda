@@ -1,0 +1,99 @@
+head
+seçici {
+  özellik: değer;
+}
+h1 {
+  color: red;
+}
+<style>
+
+body {
+  background: #111;
+  color: white;
+  font-family: Arial;
+}
+
+h1 {
+  color: orange;
+}
+
+p {
+  font-size: 18px;
+}
+
+</style>
+background: black;
+background-color: #222;
+color: #eee;
+font-size: 20px;
+div {
+  background: #222;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+<div>
+  <h2>Kamp Günlüğü</h2>
+  <p>Bugün 180 km sürdüm.</p>
+</div>
+h1 { color: orange; }
+div { background: #222; }
+.kutu {
+  background: #222;
+  padding: 15px;
+  border-radius: 8px;
+}
+#anaBaslik {
+  color: red;
+}
+#logo {
+  color: orange;
+  text-align: center;
+}
+
+.kart {
+  background: #1e1e1e;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+}
+.buyuk {
+  font-size: 22px;
+}
+.satir {
+  display: flex;
+}
+.satir {
+  display: flex;
+  gap: 20px;
+}
+.satir {
+  display: flex;
+  justify-content: center;
+}
+.kart {
+  flex: 1;
+}
+.satir {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.satir {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.kart {
+  background: #1e1e1e;
+  padding: 25px;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 200px;
+}
+.menu {
+  display: flex;
+  gap: 25px;
+}
+<link rel="stylesheet" href="style.css">

@@ -1,0 +1,248 @@
+seçici {
+  özellik: değer;
+}
+index.html
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Benim İlk Sitem</title>
+</head>
+
+<body>
+
+  <h1>Merhaba!</h1>
+  <p>Ben ilk web sayfamı yapıyorum.</p>
+
+</body>
+</html>
+<h1>Ana Başlık</h1>
+<h2>Alt Başlık</h2>
+<h3>Daha Alt</h3>
+<h4>Detay</h4>
+<h5>Küçük</h5>
+<h6>En Küçük</h6>
+<ul>
+  <li>Çadır</li>
+  <li>Uyku tulumu</li>
+  <li>Kamp ocağı</li>
+</ul>
+<ol>
+  <li>Rotayı belirle</li>
+  <li>Ekipmanı hazırla</li>
+  <li>Yola çık</li>
+</ol>
+<a href="https://google.com">Google'a Git</a>
+<a href="https://google.com" target="_blank">
+Google'a Git
+</a>
+<img src="resim.jpg">
+index.html
+motor.jpg
+<img src="motor.jpg">
+<img src="motor.jpg" alt="Kamp motosikleti">
+<h2>Kamp Ekipmanlarım</h2>
+
+<ul>
+  <li>Çadır</li>
+  <li>Mat</li>
+  <li>Kafa lambası</li>
+</ul>
+
+<h2>Favori Rota</h2>
+
+<a href="https://www.google.com">
+Haritaya Git
+</a>
+<b>Kalın yazı</b>
+<i>İtalik yazı</i>
+<b>Kalın yazı</b>
+<i>İtalik yazı</i>
+<br>
+Yola çık<br>
+Rüzgarı hisset<br>
+Devam et
+<hr>
+<div>
+  <h2>Kamp Notları</h2>
+  <p>Gece sıcaklığı düştü.</p>
+</div>
+<mark>fosforlu</mark>
+<small>küçük yazı</small>
+<del>üstü çizili</del>
+<ins>altı çizili</ins>
+Bugün <mark>200 km</mark> sürdüm.
+<hr>
+
+<h2>Yol Günlüğü</h2>
+
+<p>
+Bugün <strong>rüzgar çok sertti</strong> ama sürüş keyifliydi.
+<br>
+<em>Kamp alanı harikaydı.</em>
+</p>
+
+<div>
+  <h3>Ekipman Notu</h3>
+  <p><mark>Kafa lambası</mark> çok işe yaradı.</p>
+</div>
+h1 {
+  color: red;
+}
+<div class="kutu">
+  Kamp notu
+</div>
+<h1 id="anaBaslik">Rota Yollarda</h1>
+<h1 id="logo">Rota Yollarda</h1>
+
+<div class="kart">
+  <h2>Kamp</h2>
+  <p>Doğa ve sessizlik</p>
+</div>
+
+<div class="kart">
+  <h2>Motosiklet</h2>
+  <p>Özgürlük hissi</p>
+</div>
+<div class="kart buyuk">
+<div class="satir">
+  <div class="kart">Kamp</div>
+  <div class="kart">Motosiklet</div>
+  <div class="kart">Rota</div>
+</div>
+<h2>İçerikler</h2>
+
+<div class="satir">
+  <div class="kart">Kamp</div>
+  <div class="kart">Ekipman</div>
+  <div class="kart">Rotalar</div>
+</div>
+<div class="menu">
+  <a href="#">Ana Sayfa</a>
+  <a href="#">Rotalar</a>
+  <a href="#">Kamp</a>
+</div>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Rota Yollarda</title>
+
+<style>
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #111;
+  color: white;
+}
+
+/* HEADER */
+.header {
+  background: #000;
+  padding: 30px;
+  text-align: center;
+  font-size: 28px;
+  color: orange;
+}
+
+/* MENU */
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background: #1a1a1a;
+  padding: 15px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+/* CONTENT */
+.icerik {
+  padding: 40px;
+}
+
+.satir {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.kart {
+  background: #1e1e1e;
+  padding: 25px;
+  border-radius: 12px;
+  flex: 1;
+  min-width: 220px;
+}
+
+/* FOOTER */
+.footer {
+  background: #000;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  color: #aaa;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  Rota Yollarda
+</div>
+
+<div class="menu">
+  <a href="#">Ana Sayfa</a>
+  <a href="#">Rotalar</a>
+  <a href="#">Kamp</a>
+  <a href="#">Ekipman</a>
+</div>
+
+<div class="icerik">
+
+  <h2>Son İçerikler</h2>
+
+  <div class="satir">
+    <div class="kart">
+      Kamp Rehberi
+    </div>
+
+    <div class="kart">
+      Motosiklet Turları
+    </div>
+
+    <div class="kart">
+      Ekipman İnceleme
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">
+  © 2026 Rota Yollarda
+</div>
+
+</body>
+</html>
+<img src="images/motor.jpg">
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../style.css">
+<title>Kamp</title>
+</head>
+
+<body>
+
+<h1>Kamp Sayfası</h1>
+
+<a href="../index.html">Ana Sayfa</a>
+
+</body>
+</html>
